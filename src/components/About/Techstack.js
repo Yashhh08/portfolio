@@ -1,16 +1,12 @@
 import React from "react";
 import './Techstack.css'
-import { FaReact, FaNodeJs } from "react-icons/fa";
 import {
-  SiRedux,
   SiHtml5,
-  SiMaterialui,
-  SiExpress,
   SiJava,
   SiRedis
 } from "react-icons/si";
-import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript, SiChakraui } from "react-icons/si";
+import { DiCss3 } from "react-icons/di";
+import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 
 function Techstack() {
