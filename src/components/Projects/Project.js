@@ -6,9 +6,9 @@ import { IoLogoJavascript } from "react-icons/io";
 import { FcOnlineSupport } from 'react-icons/fc'
 import { SiExpress, SiChakraui } from "react-icons/si";
 import ubuy from '../../Assets/ubuy.gif'
-import giftcard from '../../Assets/giftcard.gif'
+import Sephora from '../../Assets/Sephora.gif'
 import youtube from '../../Assets/youtube.gif'
-import soundCloud from '../../Assets/soundCloud.gif'
+import Indiamart from '../../Assets/Indiamart.gif'
 export const Projects = () => {
   return (
     <>
@@ -17,24 +17,24 @@ export const Projects = () => {
           {'< '}<strong>Projects</strong>{' />'}
         </h2>
         {/* first one */}
-        <div className="projects_container">
+        {/* <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right"   data-aos-anchor-easing='ease-in-out'>
                 <img
-                  src={soundCloud}
+                  src={Indiamart}
                   alt="gif"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-left"   data-aos-anchor-easing='ease-in-out'>
-              <h2>soundCloud Clone</h2>
+              <h2>Sephora Clone</h2>
               <div>
                 <p>
-                  This is a online audio streaming and distribution platform that allows users to stream, and share music and podcasts.
+                Sephora is an E-Commerce website with a variety of products related to beauty and skincare.
                 </p>
                 <p>
-                This was a group project and contributors are Jevan, chandan, saurabh
+                This was a group project of 5 team members.
               </p>
               </div>
               <div>
@@ -66,14 +66,14 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* second one */}
-        <div className="projects_container">
+        {/* <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src={giftcard}                  
+                  src={Sephora}                  
                   alt="gitcard gif"
                 />
               </div>
@@ -120,30 +120,47 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
           {/* third one */}
           <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right" >
                 <img
-                  src={ubuy}
+                  src={Sephora}
                   alt="ubuy gif"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-left">
-              <h2>Ubuy Clone</h2>
+              <h2>Sephora Clone</h2>
               <div>
               <p>
-              Ubuy is not your usual e-commerce website, we provide our 
-              customers with access to an excellent variety of products. 
-              Today's shoppers want more in a shorter time period, and let's 
-              not forget the easy purchase methods and delivery to make it worth their while.
+              Sephora is an E-Commerce website with a variety of products related to beauty and skincare.
               </p>
+              
               <p>
-                This was a group project and contributors are Suresh, Prachi and Ankit
+              Features :
+
+              <p>
+              Multiple product pages, Dynamic items page, Cart page, Wishlist page, and Checkout section, Login and Sign-up, Filter and sort by different categories
               </p>
+
+                
+              </p>
+                
+              <p>
+              Areas of Responsibility:
+
+              <p>
+              Led a team of six batchmates. 
+                
+                A collaborative project built by a team of five and
+                executed in five days.
+              </p>
+                
+              </p>
+
               </div>
               <div>
                 <SiHtml5 />
@@ -152,7 +169,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://ubuy-project.vercel.app/"
+                  href="https://magenta-melba-85b7ee.netlify.app/homepage.html"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -161,7 +178,7 @@ export const Projects = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/BhaveshSuthar00/ubuy-project"
+                  href="https://github.com/Yashhh08/SEPHORA-Clone"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -173,6 +190,76 @@ export const Projects = () => {
             </div>
           </div>
         </div>
+
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right" >
+                <img
+                  src={Indiamart}
+                  alt="ubuy gif"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-left">
+              <h2>IndiaMart Clone</h2>
+              <div>
+              <p>
+              IndiaMart is an E-Commerce website that connects buyers with suppliers.
+
+              </p>
+              
+              <p>
+              Features :
+
+              <p>
+              Sign-in and sign-up, Floating navbar, Product page, Dynamic items page
+              </p>
+
+                
+              </p>
+                
+              <p>
+              Areas of Responsibility:
+              <p>
+
+              Worked on a Homepage.
+              A collaborative project built by a team of five and
+              executed in five days.
+              </p>
+                
+              </p>
+
+              </div>
+              <div>
+                <SiHtml5 />
+                <DiCss3 />
+                <IoLogoJavascript />
+              </div>
+              <div>
+                <a
+                  href="https://realindiamart.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn--outline onbt">
+                    See this Live
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/raus376/IndiaMart_Website"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn--outline">
+                    View Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
           {/* forth one */}
           <div className="projects_container">
           <div className="project">
@@ -185,7 +272,7 @@ export const Projects = () => {
               </div>
             </div>
             <div className="project_information" data-aos="fade-left"   data-aos-anchor-easing='ease-in-out'>
-              <h2>Youtube Clone</h2>
+              <h2>YouTube Clone</h2>
               <div>
                 <p>
                   Youtube clone is my individual project. I created this when I was learning REST API.
@@ -195,11 +282,10 @@ export const Projects = () => {
                 <SiHtml5 />
                 <DiCss3 />
                 <IoLogoJavascript />
-                <FcOnlineSupport />
               </div>
               <div>
                 <a
-                  href="https://tube-ten.vercel.app/"
+                  href="https://storied-biscuit-02cfea.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -208,7 +294,7 @@ export const Projects = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/BhaveshSuthar00/tube"
+                  href="https://github.com/Yashhh08/ES6-1-YouTube-"
                   target="_blank"
                   rel="noreferrer"
                 >

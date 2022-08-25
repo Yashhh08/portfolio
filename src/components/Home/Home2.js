@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { HashLink as Link } from 'react-router-hash-link';
 import Tilt from "react-parallax-tilt";
 import Bhavesh from '../../Assets/Bhavesh.png';
-// import Yash from '../../Assets/Yash.png'
+import Yash from '../../Assets/Yash.jpeg';
 import {
   AiFillGithub,
   AiOutlineMail,
@@ -21,25 +21,29 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            Aspiring Full Stack Web Developer, Strongly interested in obtaining a Software Developer
+            position.
+
               <br />
-              <br />I am fluent in classic like
-              <i>
+              <br />Collaborative team player proficiently working with a multidisciplinary team to convert business needs
+              into technical specifications.
+              {/* <i>
                 <b className="purple"> Javascript. </b>
-              </i>
+              </i> */}
               <br />
               <br />
-              My field of Interest's are building &nbsp;
+              Capable of detailed programming and development tasks for front-end public and internal websites as well as challenging back-end server code.
+
+              {/* My field of Interest's are building &nbsp;
               <i>
                 <b className="purple"></b>
                 <b className="purple">
                   Websites.
                 </b>
-              </i>
+              </i> */}
               <br />
               <br />
-              Whenever possible, I also apply my passion for Learning new technologies
+              {/* Whenever possible, I also apply my passion for Learning new technologies
               <i>
                 <b className="purple">
                   &nbsp;
@@ -49,12 +53,12 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple">&nbsp; three.js and Next.js. </b>
-              </i>
+              </i> */}
             </p>
           </Col>
           <Col md={3} className="myAvtar" data-aos='fade-left'>
             <Tilt>
-              <img src={Bhavesh} className="img-fluid" alt="avatar" />
+              <img src={Yash} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -77,7 +81,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.google.com/maps/place/Dahisar+East,+Mumbai,+Maharashtra/@19.2545196,72.8439397,14z/data=!4m9!1m2!10m1!1e2!3m5!1s0x3be7b0eef33fcc13:0xdf8f3b35a262c586!8m2!3d19.2574665!4d72.8650191!16s%2Fg%2F12hw1vgkw"
+                  href="https://www.google.co.in/maps/place/Dahisar+East,+Mumbai,+Maharashtra/@19.2512246,72.8600327,15z/data=!3m1!4b1!4m5!3m4!1s0x3be7b0eef33fcc13:0xdf8f3b35a262c586!8m2!3d19.2574665!4d72.8650191?hl=en&authuser=0"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +91,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/bhaveshsuthar0770"
+                  href="https://www.linkedin.com/in/yash-yerunkar-887b9622b/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

@@ -17,13 +17,13 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity" data-aos='flip-down'>
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Trekking 
             </li>
             <li className="about-activity" data-aos='flip-down' >
-              <ImPointRight /> Hiking
+              <ImPointRight /> Travelling
             </li>
             <li className="about-activity"  data-aos='flip-down'>
-              <ImPointRight /> Travelling
+              <ImPointRight /> Music
             </li>
           </ul>
 

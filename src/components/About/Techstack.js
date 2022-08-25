@@ -3,7 +3,7 @@ import './Techstack.css'
 import {
   SiHtml5,
   SiJava,
-  SiRedis
+  SiMysql
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
@@ -13,10 +13,7 @@ function Techstack() {
   return (
     <>
       <div className="techstack">
-          <div data-aos='flip-down'>
-            <SiJavascript />
-            <h5 style={{marginTop: 10}}>Javascript</h5>
-          </div>
+          
           <div data-aos='flip-down'>
             <SiHtml5 />
             <h5 style={{marginTop: 10}}>HTML</h5>
@@ -26,12 +23,16 @@ function Techstack() {
             <h5 style={{marginTop: 10}}>CSS</h5>
           </div>
           <div data-aos='flip-down'>
-            <SiRedis />
-            <h5 style={{marginTop: 10}}>Redis</h5>
+            <SiJavascript />
+            <h5 style={{marginTop: 10}}>Javascript</h5>
           </div>
           <div data-aos='flip-down'>
             <SiJava />
             <h5 style={{marginTop: 10}}>Java</h5>
+          </div>
+          <div data-aos='flip-down'>
+            <SiMysql />
+            <h5 style={{marginTop: 10}}>SQL</h5>
           </div>
           <div data-aos='flip-down'>
             <VscGithub />
