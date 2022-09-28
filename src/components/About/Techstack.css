@@ -1,3 +1,30 @@
+.statistic {
+    display : flex;
+    text-align: center;
+    /* height: 50vh; */
+    /* margin: auto; */
+    flex-wrap: wrap;
+    max-height: 400px;
+}
+.statistic>div {
+    border-radius: 20px;
+    margin: 2.5%;
+    flex: 1;
+    float: left;
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease 0s;
+}
+.statistic>div:hover {
+    overflow: hidden;
+    animation: auto;
+    transform: scale(1.08);
+    cursor: pointer;
+    box-shadow: rgba(137, 11, 240, 0.25) 0px 13px 27px -5px, rgba(236, 93, 255, 0.3) 0px 8px 16px -8px;
+}
 .techstack {
     display : flex;
     text-align: center;
@@ -33,6 +60,10 @@
     align-items: center;
 }
 @media only screen and (min-width: 0px) and (max-width: 374px) {
+    .statistic {
+        flex-direction: column;
+        justify-content: center;
+    }
     .techstack {
         text-align: center;
         height: 500px;
@@ -61,6 +92,10 @@
     display: none; /* for Chrome, Safari, and Opera */
 }
 @media only screen and (min-width: 375px) and (max-width: 600px) {
+    .statistic {
+        flex-direction: column;
+        justify-content: center;
+    }
     .techstack {
         height: 120vh;
         overflow : scroll;

@@ -6,7 +6,7 @@ import {
   SiMysql
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-import { SiJavascript } from "react-icons/si";
+import { SiJavascript,SiSpringboot,SiApachemaven,SiHibernate   } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 
 function Techstack() {
@@ -35,9 +35,22 @@ function Techstack() {
             <h5 style={{marginTop: 10}}>SQL</h5>
           </div>
           <div data-aos='flip-down'>
+            <SiApachemaven />
+            <h5 style={{marginTop: 10}}>Maven</h5>
+          </div>
+          <div data-aos='flip-down'>
+            <SiHibernate />
+            <h5 style={{marginTop: 10}}>Hibernate</h5>
+          </div>
+          <div data-aos='flip-down'>
+            <SiSpringboot />
+            <h5 style={{marginTop: 10}}>Spring boot</h5>
+          </div>
+          <div data-aos='flip-down'>
             <VscGithub />
             <h5 style={{marginTop: 10}}>Github</h5>
           </div>
+          
       </div>
     </>
     );

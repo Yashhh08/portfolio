@@ -5,6 +5,7 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
+import Statistic from "./Statistic";
 
 function About() {
   return (
@@ -32,6 +33,7 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" data-aos='fade-left'/>
           </Col>
         </Row>
+        <div style={{ marginBottom : '3%'}}> <Statistic /> </div>
         <h1 className="project-heading" data-aos='fade-left' style={{marginTop: '4%'}}>
           Professional <strong className="purple">Skillset </strong>
         </h1>

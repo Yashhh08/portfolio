@@ -103,7 +103,7 @@
   justify-content: space-evenly;
 }
 
-.project_information > div:nth-child(3) > svg {
+.project_information > div:nth-child(3) > .icons-array > svg {
   font-size: 2.5em;
   margin: 2% 3% 2% 3%;
   color: white;
@@ -146,8 +146,13 @@
     .project_information {
       flex-basis: 60%;
     }
-    .project_information > div:nth-child(3) > svg {
-      font-size: 2em;
+    .project_information > div:nth-child(3) > .icons-array > svg {
+      font-size: 1.4em;
+    }
+    
+    .project_information > div:nth-child(3) > .icons-array {
+      padding: 4%;
+      margin: 1%;
     }
   }
   

@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { HashLink as Link } from 'react-router-hash-link';
 import Tilt from "react-parallax-tilt";
-import Bhavesh from '../../Assets/Bhavesh.png';
 import Yash from '../../Assets/Yash.jpeg';
 import {
   AiFillGithub,
