@@ -15,7 +15,7 @@ const Statistic = () => {
             </h1>
             <div className="statistic">
                 {
-                    data  && data.map((item)=> <div key={uuid()}>
+                    data  && data.map((item)=> <div key={uuid()} data-aos='flip-down'>
                         <h5>{item}</h5>
                     </div>)
                 }
